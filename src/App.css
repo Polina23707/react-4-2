@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  box-sizing: border-box;
+  width: 500px;
+  justify-content: space-between;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.form-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.table {
+  margin-top: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.table-headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px;
+}
